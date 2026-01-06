@@ -1,6 +1,6 @@
 {
   "name": "my-fire-smart-controller",
-  "homepage": "https://benwfocalpointfires-hub.github.io/British-Fire-App",
+  "homepage": "https://benwfocalpointfires-hub.github.io/British-Fire-App/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -24,3 +24,4 @@
     "vite": "^6.2.0"
   }
 }
+
