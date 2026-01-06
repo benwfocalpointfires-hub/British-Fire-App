@@ -1,0 +1,7 @@
+{
+  "name": "My Fire Smart Controller",
+  "description": "A high-end smart controller app for modern electric fireplaces with customizable lighting, sound, and heat settings.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
