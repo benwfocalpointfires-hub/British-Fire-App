@@ -1,20 +1,21 @@
 {
-  "name": "my-fire-smart-controller",
-  "homepage": "https://benwfocalpointfires-hub.github.io/British-Fire-App/",
-  "private": true,
+  "name": "british-fire-app",
   "version": "0.0.0",
+  "private": true,
   "type": "module",
+  "homepage": "https://benwfocalpointfires-hub.github.io/British-Fire-App",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "@google/genai": "^1.34.0",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^6.16.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
@@ -24,4 +25,3 @@
     "vite": "^6.2.0"
   }
 }
-
